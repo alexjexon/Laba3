@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    background-image: url("image/ptt.jpg");
+    background-size: 100%;
+
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    /*background-image: url("image/bg.png");*/
+    background-size: 100%;
+
+}
+
+header {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.ribbons {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 30%;
+}
+
+.header__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+
+.content {
+    width: 500px;
+    height: 22%;
+    display: flex;
+    border-radius: 70px;
+    background-color: #ffffff;
+    align-self: center;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.photo-content {
+    display: block;
+    width: 20%;
+}
+
+.happy-content {
+    display: block;
+    width: 70%;
+    font-size: 20px;
+
+}
+
+.desire {
+    font-size: 50px;
+    color: gold;
+    align-self: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+}
+
+.inscription-ozon {
+    font-size: 15px;
+    color: white;
+    align-self: center;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.inscription-ozon2 {
+    font-size: 15px;
+    color: white;
+    align-self: center;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.inscription-ozon3 {
+    font-size: 15px;
+    color: white;
+    align-self: center;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+
+.button_content {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+input[type="button"] {
+    height: 70px;
+    width: 400px;
+    background-color: #ff9000;
+    border-radius: 30px;
+    font-size: 20px;
+    box-shadow:0 2px 4px black;
+    border: solid;
+    border-color: #ff9000;
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.two-minute {
+    margin: 15px;
+    font-size: 15px;
+    opacity: 0.7;
+    color: #ffffff;
+    align-self: center;
+    font-family: "Open Sans", sans-serif;
+}
+
+main {
+    width: 53vw;
+    margin: 0 auto;
+    background: url("image/contentfon.png") no-repeat;
+    background-size: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.top-inscription {
+    width: 43%;
+   padding-top: 4%;
+    font-size: 40px;
+    color: #ff9200;
+    align-self: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+
+}
+.top-inscription2 {
+    width: 61%;
+    font-size: 40px;
+    color: #ff9200;
+    align-self: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+
+}
+
+.block-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.inscription-circle {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.blu-header {
+    padding-top: 25%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    font-size: 40px;
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+
+}
+
+.blu-one {
+    width: 60%;
+    align-self: center;
+}
+
+.tort {
+    display: flex;
+    align-self: center;
+}
+
+.information {
+    margin: 10px;
+    font-size: 25px;
+
+    color: #ffffff;
+    align-self: center;
+    font-family: "Open Sans", sans-serif;
+}
